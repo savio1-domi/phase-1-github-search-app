@@ -1,5 +1,4 @@
-name: Sync with Canvas HTML
-
+name: Sync with Canvas HTM
 on:
   push:
     branches: [master, main]
