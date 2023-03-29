@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         e.preventDefault()
         let search = e.target.search.value
         //console.log(search)
+        console.log(search);
         handleSearch(search)
 
 function handleSearch() {
@@ -61,15 +62,11 @@ function handleSearch() {
                     <p> ${repo.html_url}</p>
                     `
                     document.querySelector('#repos-list').appendChild(repoCard)
-
                })
             })
 
            })
-
-
     })
-
 })
 }
 })
